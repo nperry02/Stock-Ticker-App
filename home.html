@@ -1,0 +1,13 @@
+<form action="/process" method="GET">
+  <label>Search:</label>
+  <input type="text" name="query" required />
+  <br>
+  <label>
+    <input type="radio" name="searchType" value="ticker" required /> Ticker
+  </label>
+  <label>
+    <input type="radio" name="searchType" value="company" /> Company Name
+  </label>
+  <br>
+  <button type="submit">Search</button>
+</form>
